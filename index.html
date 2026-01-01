@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="top">
+    <h1 data-key="title"></h1>
+
+    <div class="controls">
+      <button onclick="toggleTheme()">🌙</button>
+      <button onclick="setLang('kz')">KZ</button>
+      <button onclick="setLang('ru')">RU</button>
+      <button onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2 data-key="hero_title"></h2>
+  <p data-key="hero_sub"></p>
+  <a href="contact.html" class="btn" data-key="hero_btn"></a>
+</section>
+
+<section>
+  <h2 data-key="skills_title"></h2>
+  <ul class="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Responsive Design</li>
+  </ul>
+</section>
+
+<section>
+  <h2 data-key="mini_about_title"></h2>
+  <p data-key="mini_about_text"></p>
+</section>
+
+<section class="cta">
+  <h2 data-key="cta_title"></h2>
+  <a href="contact.html" class="btn" data-key="cta_btn"></a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
